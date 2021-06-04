@@ -22,17 +22,17 @@
                         "xver": 1
                     },
                     {
-                        "path": "/vless",
+                        "path": "/$UUID-vless",
                         "dest": 1234,
                         "xver": 1
                     },
                     {
-                        "path": "/vmesstcp",
+                        "path": "/$UUID-vmesstcp",
                         "dest": 2345,
                         "xver": 1
                     },
                     {
-                        "path": "/vmessws",
+                        "path": "/$UUID-vmessws",
                         "dest": 3456,
                         "xver": 1
                     }
@@ -99,7 +99,7 @@
                 "security": "none",
                 "wsSettings": {
                     "acceptProxyProtocol": true,
-                    "path": "/vless"
+                    "path": "/$UUID-vless"
                 }
             }
         },
@@ -125,7 +125,7 @@
                         "type": "http",
                         "request": {
                             "path": [
-                                "/vmesstcp"
+                                "/$UUID-vmesstcp"
                             ]
                         }
                     }
@@ -150,7 +150,7 @@
                 "security": "none",
                 "wsSettings": {
                     "acceptProxyProtocol": true,
-                    "path": "/vmessws"
+                    "path": "/$UUID-vmessws"
                 }
             }
         }
